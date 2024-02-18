@@ -1,0 +1,186 @@
+﻿html{
+    font-family: Calibri;
+}
+ul li{
+    font-size: 1.5rem;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a#logo{
+    padding-left: 5rem;
+}
+li a{
+    color:red;
+}
+ul#contact{
+    display: flex;
+    gap: 30px;
+    padding-top: 50px;
+    position: relative;
+    left: 140px;
+
+}
+ul#contactinfo{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    position: relative;
+    left: 80px;
+}
+ul#contactinfo li{
+    font-size: 1.2rem;
+    padding-left: 60px;
+}
+body{
+    overflow-x: hidden;
+}
+body.indent{
+    padding-left: 5rem;
+    color: rgb(136, 136, 136)
+}
+article.intro{
+    background-image: url("./images/banner.jpg");
+    background-size: 1000px  511px;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 511px;
+    background-color: black;
+    overflow: auto;
+}
+p.box{
+    width: 400px;
+    word-wrap: break-word;
+    position: relative;
+    left: 570px;
+    text-align: right;
+    color: white;
+    font-size: 1.2rem;
+}
+
+img#kr{
+    width:210px;
+    height: 140px;
+    padding-top: 1.05rem;
+}
+img#portrait{
+    width: 300px;
+    height: 200px;
+}
+img#nurse{
+    width: 312px;
+    height: 250px;
+    position: relative;
+    right: 500px;
+}
+img#team{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    position: relative;
+    left: 150px;
+    
+}
+img#OK{
+    width: 800px;
+    height: 419px;
+    position: relative;
+    left: 75px;
+}
+p#name{
+    width:210px;
+    text-align: center;
+    padding-bottom: 700px;
+}
+p.quote{
+    width: 800px;
+    background-color:rgb(232, 232, 232);
+    font-size: 1.2rem;
+    position: relative;
+    right: 60px;
+    float: right;
+    padding: 0.7rem;
+}
+h1#title{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+}
+h1#titleOK{
+    font-size: 2.5rem;
+    padding-left: 5rem;
+}
+p#left
+{
+    float: left;
+    width: 500px;
+    position: relative;
+    left: 50px;
+    font-size: 1.1rem;
+    padding-bottom: 150px;
+}
+p#right{
+    float: right;
+    width: 500px;
+    position: relative;
+    right: 50px;
+    font-size: 1.1rem;
+    padding-bottom: 150px;
+}
+p#wwd{
+    width: 1150px;
+    font-size: 1.25rem;
+    padding-left: 75px;
+}
+ul#wwd{
+    padding-left: 75px;
+    padding-right: 75px;
+}
+ul#wwd li{
+    font-size: 1.25rem;
+    list-style:disc;
+}
+form{
+    font-size: 1.3rem;
+    padding-left: 180px;
+}
+textarea{
+    padding-right: 720px;
+    font-size: 1.3rem;
+}
+textarea#message{
+    padding-bottom: 100px;
+}
+form#OK{
+    position: relative;
+    left: 170px;
+    width: 700px;
+    font-size: 1.2rem;
+}
+form#OK textarea{
+    padding-right: 400px;
+    font-size: 1.2rem;
+    height: 1.5rem;
+}
+form#OK h2{
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+}
+form#OK textarea#in-line{
+    display:inline;
+    padding-right: 80px;
+}
+input[type=submit]{
+    height: 30px;
+    font-size: 1rem;
+    position: relative;
+    bottom: 20px;
+}
+form#OK input[type=submit]{
+    width: 150px;
+    height: 45px;
+    font-size: 1.3rem;
+    position: relative;
+    left: 250px;
+}
